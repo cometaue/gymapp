@@ -1,0 +1,44 @@
+{
+  "listaClientes": [
+    {
+      "nombre": "angie",
+      "apellido": "Hernadgit a Marin",
+      "email": "hernadnez@gmail.com",
+      "mobile": 680103,
+      "weight": 80,
+      "height": 1.6,
+      "bmi": 31,
+      "bmiResult": "Obesidad",
+      "trainer": "Si",
+      "gender": "Femenino",
+      "tiempoPago": " Pago mensual",
+      "objetivos": ["Estar mas saludable"],
+      "firstTimeGym": "Si",
+      "fechaInicio": "2023-03-30T22:00:00.000Z",
+      "id": 3
+    },
+    {
+      "nombre": "karen",
+      "apellido": "obando",
+      "email": "jjjjj@gmail.com",
+      "mobile": 138912938,
+      "weight": 100,
+      "height": 1.72,
+      "bmi": 34,
+      "bmiResult": "Obesidad",
+      "trainer": "Si",
+      "gender": "Masculino",
+      "tiempoPago": " Pago mensual",
+      "objetivos": [
+        "Reducción de grasas",
+        "Reducir el Sedentarismo",
+        "Generar masa moscular",
+        "Estar mas saludable",
+        "Lograr un cuerpo Escultural"
+      ],
+      "firstTimeGym": "Si",
+      "fechaInicio": "2023-03-24T23:00:00.000Z",
+      "id": 4
+    }
+  ]
+}

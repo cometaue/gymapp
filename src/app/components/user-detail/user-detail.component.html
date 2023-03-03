@@ -1,0 +1,49 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ user.nombre + " " + user.apellido }} </mat-card-title>
+    <mat-card-subtitle> {{ user.email }}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <mat-divider></mat-divider>
+    <mat-list>
+      <div>
+        <mat-list-item>
+          <strong>Mobile:</strong> {{ user.mobile }}
+        </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item>
+          <strong>Genero:</strong> {{ user.gender }}
+        </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item>
+          <strong>Tipo de pago:</strong> {{ user.tiempoPago }}
+        </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item> <strong>B.M.I:</strong> {{ user.bmi }} </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item>
+          <strong>B.M.I Result:</strong> {{ user.bmiResult }}
+        </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item>
+          <strong>Requiere entrenador:</strong> {{ user.trainer }}
+        </mat-list-item>
+      </div>
+      <div>
+        <mat-list-item>
+          <strong>Objetivos: </strong>
+          <ng-container *ngFor="let item of user.objetivos">
+            <mat-chip-option class="m-2"> {{ item }} </mat-chip-option>
+          </ng-container>
+        </mat-list-item>
+      </div>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
